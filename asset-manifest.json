@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tap-atx-homepage/static/css/main.b9cb5a60.chunk.css",
-    "main.js": "/tap-atx-homepage/static/js/main.54d65a67.chunk.js",
-    "main.js.map": "/tap-atx-homepage/static/js/main.54d65a67.chunk.js.map",
+    "main.js": "/tap-atx-homepage/static/js/main.c7178ae1.chunk.js",
+    "main.js.map": "/tap-atx-homepage/static/js/main.c7178ae1.chunk.js.map",
     "runtime-main.js": "/tap-atx-homepage/static/js/runtime-main.f4e905a6.js",
     "runtime-main.js.map": "/tap-atx-homepage/static/js/runtime-main.f4e905a6.js.map",
     "static/css/2.658248ec.chunk.css": "/tap-atx-homepage/static/css/2.658248ec.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.5de62f1b.chunk.js",
     "static/css/main.b9cb5a60.chunk.css",
-    "static/js/main.54d65a67.chunk.js"
+    "static/js/main.c7178ae1.chunk.js"
   ]
 }
