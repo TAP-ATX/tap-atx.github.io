@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.0fc09625.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.0fc09625.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.721ce6de.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.721ce6de.js.map",
-    "static/js/2.67266eef.chunk.js": "/react-gh-pages/static/js/2.67266eef.chunk.js",
-    "static/js/2.67266eef.chunk.js.map": "/react-gh-pages/static/js/2.67266eef.chunk.js.map",
-    "static/js/3.2efb9752.chunk.js": "/react-gh-pages/static/js/3.2efb9752.chunk.js",
-    "static/js/3.2efb9752.chunk.js.map": "/react-gh-pages/static/js/3.2efb9752.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/react-gh-pages/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.67266eef.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.67266eef.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/react-gh-pages/static/media/logo.6ce24c58.svg"
+    "main.css": "/tap-atx-homepage/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/tap-atx-homepage/static/js/main.0fc09625.chunk.js",
+    "main.js.map": "/tap-atx-homepage/static/js/main.0fc09625.chunk.js.map",
+    "runtime-main.js": "/tap-atx-homepage/static/js/runtime-main.d7dd9583.js",
+    "runtime-main.js.map": "/tap-atx-homepage/static/js/runtime-main.d7dd9583.js.map",
+    "static/js/2.67266eef.chunk.js": "/tap-atx-homepage/static/js/2.67266eef.chunk.js",
+    "static/js/2.67266eef.chunk.js.map": "/tap-atx-homepage/static/js/2.67266eef.chunk.js.map",
+    "static/js/3.2efb9752.chunk.js": "/tap-atx-homepage/static/js/3.2efb9752.chunk.js",
+    "static/js/3.2efb9752.chunk.js.map": "/tap-atx-homepage/static/js/3.2efb9752.chunk.js.map",
+    "index.html": "/tap-atx-homepage/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/tap-atx-homepage/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.67266eef.chunk.js.LICENSE.txt": "/tap-atx-homepage/static/js/2.67266eef.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/tap-atx-homepage/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.721ce6de.js",
+    "static/js/runtime-main.d7dd9583.js",
     "static/js/2.67266eef.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.0fc09625.chunk.js"
