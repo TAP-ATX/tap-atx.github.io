@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/tap-atx-homepage/static/css/main.b9cb5a60.chunk.css",
-    "main.js": "/tap-atx-homepage/static/js/main.c7178ae1.chunk.js",
-    "main.js.map": "/tap-atx-homepage/static/js/main.c7178ae1.chunk.js.map",
-    "runtime-main.js": "/tap-atx-homepage/static/js/runtime-main.f4e905a6.js",
-    "runtime-main.js.map": "/tap-atx-homepage/static/js/runtime-main.f4e905a6.js.map",
+    "main.css": "/tap-atx-homepage/static/css/main.473f096c.chunk.css",
+    "main.js": "/tap-atx-homepage/static/js/main.c9e72ce6.chunk.js",
+    "main.js.map": "/tap-atx-homepage/static/js/main.c9e72ce6.chunk.js.map",
+    "runtime-main.js": "/tap-atx-homepage/static/js/runtime-main.453696e5.js",
+    "runtime-main.js.map": "/tap-atx-homepage/static/js/runtime-main.453696e5.js.map",
     "static/css/2.658248ec.chunk.css": "/tap-atx-homepage/static/css/2.658248ec.chunk.css",
-    "static/js/2.5de62f1b.chunk.js": "/tap-atx-homepage/static/js/2.5de62f1b.chunk.js",
-    "static/js/2.5de62f1b.chunk.js.map": "/tap-atx-homepage/static/js/2.5de62f1b.chunk.js.map",
-    "static/js/3.f3c66780.chunk.js": "/tap-atx-homepage/static/js/3.f3c66780.chunk.js",
-    "static/js/3.f3c66780.chunk.js.map": "/tap-atx-homepage/static/js/3.f3c66780.chunk.js.map",
+    "static/js/2.9c3be633.chunk.js": "/tap-atx-homepage/static/js/2.9c3be633.chunk.js",
+    "static/js/2.9c3be633.chunk.js.map": "/tap-atx-homepage/static/js/2.9c3be633.chunk.js.map",
+    "static/js/3.a13646c6.chunk.js": "/tap-atx-homepage/static/js/3.a13646c6.chunk.js",
+    "static/js/3.a13646c6.chunk.js.map": "/tap-atx-homepage/static/js/3.a13646c6.chunk.js.map",
     "index.html": "/tap-atx-homepage/index.html",
     "static/css/2.658248ec.chunk.css.map": "/tap-atx-homepage/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.b9cb5a60.chunk.css.map": "/tap-atx-homepage/static/css/main.b9cb5a60.chunk.css.map",
-    "static/js/2.5de62f1b.chunk.js.LICENSE.txt": "/tap-atx-homepage/static/js/2.5de62f1b.chunk.js.LICENSE.txt",
+    "static/css/main.473f096c.chunk.css.map": "/tap-atx-homepage/static/css/main.473f096c.chunk.css.map",
+    "static/js/2.9c3be633.chunk.js.LICENSE.txt": "/tap-atx-homepage/static/js/2.9c3be633.chunk.js.LICENSE.txt",
     "static/media/instagram_1.jpg": "/tap-atx-homepage/static/media/instagram_1.ceee6768.jpg",
+    "static/media/instagram_10.jpg": "/tap-atx-homepage/static/media/instagram_10.260139f1.jpg",
+    "static/media/instagram_11.jpg": "/tap-atx-homepage/static/media/instagram_11.8c12bc38.jpg",
+    "static/media/instagram_12.jpg": "/tap-atx-homepage/static/media/instagram_12.09d10c59.jpg",
     "static/media/instagram_2.jpg": "/tap-atx-homepage/static/media/instagram_2.ce0c9375.jpg",
     "static/media/instagram_3.jpg": "/tap-atx-homepage/static/media/instagram_3.4b0c30e4.jpg",
     "static/media/instagram_4.jpg": "/tap-atx-homepage/static/media/instagram_4.8dd7db02.jpg",
@@ -25,10 +28,10 @@
     "static/media/instagram_9.jpg": "/tap-atx-homepage/static/media/instagram_9.d38292c6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4e905a6.js",
+    "static/js/runtime-main.453696e5.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.5de62f1b.chunk.js",
-    "static/css/main.b9cb5a60.chunk.css",
-    "static/js/main.c7178ae1.chunk.js"
+    "static/js/2.9c3be633.chunk.js",
+    "static/css/main.473f096c.chunk.css",
+    "static/js/main.c9e72ce6.chunk.js"
   ]
 }
