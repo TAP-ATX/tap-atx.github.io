@@ -1,0 +1,22 @@
+.info-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.contact-container {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.contact-container p, li {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 1.1em;
+  line-height: 2;
+}
+
+.contact-container ul {
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+}
