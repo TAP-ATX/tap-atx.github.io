@@ -2,7 +2,7 @@
   "name": "tap-atx-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tap-atx.github.io/tap-atx-homepage",
+  "homepage": "http://tap-atx.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",

@@ -53,7 +53,7 @@ function Leadership() {
           imgSrc={JasonPic}
           name="Jason Lii"
           title="Social Chair"
-          description="I joined TAP-ATX in order to help grow the Taiwanese American community and to get more immersed with the culture of his family."
+          description="I joined TAP-ATX in order to help grow the Taiwanese American community and to get more immersed with the culture of my family."
         />
         <OfficerRow
           imgSrc={JustinPic}
