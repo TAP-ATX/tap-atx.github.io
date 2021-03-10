@@ -1,6 +1,7 @@
-import {Container, Row, Col, Button} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 import _ from 'lodash'
 import MailChimp from "../components/mailchimp"
+import { HashLink as Link } from 'react-router-hash-link'
 
 function importAll(r) {
   return r.keys().map(r);
@@ -41,7 +42,7 @@ function Home() {
           <Row>
             <Col className="text-center">
               <div className="buttons">
-                <a className="btn btn-primary btn-lg">Join Our Mailing List</a>
+                <Link to="#mailchimp-subscribe" className="btn btn-lg" smooth={true}>Join Our Mailing List</Link>
               </div>
             </Col>
           </Row>
@@ -58,10 +59,20 @@ function Home() {
         </Container>
         <Container className="info-container text-center">
           <h1 className="header-title">Support Us</h1>
+          <p className="support-text">Your contributions will help us continue to create and plan events and programs!</p>
+          <p className="support-text">Check out our <a href="https://www.facebook.com/tapatx" rel="noreferrer" target="_blank">Facebook</a>, <a href="https://www.instagram.com/tapatx/" rel="noreferrer" target="_blank">Instagram</a>, or <Link to="#mailchimp-subscribe" smooth={true}>Mailing List</Link> for the latest events.
+          </p>
+          <br/>
           <div className="buttons">
-            <a className="btn btn-primary btn-lg" href="https://venmo.com/TAP-ATX" target="_blank">Venmo</a>
-            <a className="btn btn-primary btn-lg" href="https://www.paypal.com/paypalme/tapatx" target="_blank">PayPal</a>
+            <a className="btn btn-lg" href="https://venmo.com/TAP-ATX" rel="noreferrer" target="_blank">Venmo</a>
+            <a className="btn btn-lg" href="https://www.paypal.com/paypalme/tapatx" rel="noreferrer" target="_blank">PayPal</a>
           </div>
+        </Container>
+        <Container className="info-container text-center">
+          <hr/>
+        </Container>
+        <Container className="info-container" style={{width: "25%"}}>
+          <MailChimp/>
         </Container>
       </div>
     </div>

@@ -5,7 +5,7 @@ import OfficerImg from "../images/about_officers.jpg"
 function About() {
   return (
     <Container className="info-container">
-      <div className="about-container">
+      <div className="description-container">
         <h1 className="text-center header-title">About</h1>
         <p><strong>Taiwanese American Professionals (TAP)</strong> enhances the Taiwanese American community by connecting individuals
         interested in professional and career development, while emphasizing the preservation of Taiwanese American identity.</p>
@@ -15,7 +15,7 @@ function About() {
         <img src={OfficerImg} alt="tap_officers"/>
 
         <p>TAP-ATX is a chapter of TACL National, a 501c3 non-profit organization run entirely by volunteers.
-        Learn more about <a href="https://www.tacl.org" target="_blank">TACL</a>.</p>
+        Learn more about <a href="https://www.tacl.org" rel="noreferrer" target="_blank">TACL</a>.</p>
 
         <h4>Key Values</h4>
         <ul>

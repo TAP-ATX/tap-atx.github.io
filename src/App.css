@@ -30,11 +30,6 @@
   position: absolute;
   width: 100%;
   z-index: 2;
-
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 
 .instagram-overlay {
@@ -49,26 +44,40 @@
   z-index: -1;
 }
 
-.buttons a {
+.buttons a,
+.buttons button {
   padding: 17px 35px;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 400;
   background-color: #009c82;
+  color: white;
   border: none;
   margin-left: 5px;
   margin-right: 5px;
+  border: none !important;
 }
 
 .buttons a:hover,
-.buttons a:active {
+.buttons a:active,
+.buttons button:hover,
+.buttons button:active {
   background-color: #008a6f !important;
-  border: none;
+  color: white;
+  border: none !important;
 }
 
-.buttons a:unpublished:visited {
+.buttons a:unpublished:visited,
+.buttons a:focus,
+.buttons a:visited,
+.buttons a:target
+.buttons button:unpublished:visited,
+.buttons button:focus,
+.buttons button:visited,
+.buttons button:target {
   background-color:  #009c82 !important;
-  border: none;
+  color: white;
+  border: none !important;
 }
 
 .home-container {
@@ -79,8 +88,6 @@
 .info-container {
   margin-top: 2em;
   margin-bottom: 2em;
-  padding-right: 15%;
-  padding-left: 15%;
 }
 
 .info-container p {
@@ -91,4 +98,13 @@
 
 .info-container h1.header-title {
   margin-bottom: 1em;
+}
+
+.info-container p.support-text {
+  line-height: 1.25;
+}
+
+.description-container {
+  padding-right: 15%;
+  padding-left: 15%;
 }

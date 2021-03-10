@@ -11,9 +11,9 @@ const Footer = () => {
       <Container className="footer__social">
         <Row>
           <Col className="text-center">
-            <a href="https://www.facebook.com/tapatx"><FontAwesomeIcon className="social-icon fa-2x" icon={faFacebook} /></a>
-            <a href="https://www.instagram.com/tapatx/"><FontAwesomeIcon className="social-icon fa-2x" icon={faInstagram} /></a>
-            <a href="https://twitter.com/tap_atx"><FontAwesomeIcon className="social-icon fa-2x" icon={faTwitter} /></a>
+            <a href="https://www.facebook.com/tapatx" rel="noreferrer" target="_blank"><FontAwesomeIcon className="social-icon fa-2x" icon={faFacebook} /></a>
+            <a href="https://www.instagram.com/tapatx/" rel="noreferrer" target="_blank"><FontAwesomeIcon className="social-icon fa-2x" icon={faInstagram} /></a>
+            <a href="https://twitter.com/tap_atx" rel="noreferrer" target="_blank"><FontAwesomeIcon className="social-icon fa-2x" icon={faTwitter} /></a>
           </Col>
         </Row>
       </Container>

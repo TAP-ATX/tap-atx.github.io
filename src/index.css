@@ -16,3 +16,7 @@ code {
 p, h1, li, h4 {
   color: #555;
 }
+
+.hidden {
+  display: none;
+}
