@@ -1,4 +1,4 @@
-import "./contact.css"
+import "./contact.scss"
 import { Container } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
@@ -23,7 +23,7 @@ function Contact() {
         </ul>
         <br />
 
-        <h4>Leaving Austin? Check out our other chapters!</h4>
+        <h4>Leaving Austin? Check out other chapters in the TACL Network!</h4>
         <ul>
           <li>
             <a href="http://www.tap-atl.org" rel="noreferrer" target="_blank">
