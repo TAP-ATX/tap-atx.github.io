@@ -4,7 +4,9 @@
   margin-bottom: 1em;
 }
 
-.about-container p, li, h4 {
+.about-container p,
+li,
+h4 {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 1.1em;
   line-height: 2;

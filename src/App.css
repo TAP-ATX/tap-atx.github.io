@@ -70,12 +70,11 @@
 .buttons a:unpublished:visited,
 .buttons a:focus,
 .buttons a:visited,
-.buttons a:target
-.buttons button:unpublished:visited,
+.buttons a:target .buttons button:unpublished:visited,
 .buttons button:focus,
 .buttons button:visited,
 .buttons button:target {
-  background-color:  #009c82 !important;
+  background-color: #009c82 !important;
   color: white;
   border: none !important;
 }
@@ -107,4 +106,14 @@
 .description-container {
   padding-right: 15%;
   padding-left: 15%;
+}
+
+div.mailchimp {
+  width: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+  div.mailchimp {
+    width: 100%;
+  }
 }
