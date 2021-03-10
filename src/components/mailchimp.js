@@ -1,4 +1,4 @@
-import "./mailchimp.css"
+import "./mailchimp.scss"
 import { useState } from "react"
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 

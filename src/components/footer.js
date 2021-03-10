@@ -1,4 +1,4 @@
-import "./footer.css"
+import "./footer.scss"
 import { Container, Row, Col } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagram, faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons"
@@ -12,13 +12,13 @@ const Footer = () => {
         <Row>
           <Col className="text-center">
             <a href="https://www.facebook.com/tapatx" rel="noreferrer" target="_blank">
-              <FontAwesomeIcon className="social-icon fa-2x" icon={faFacebook} />
+              <FontAwesomeIcon className="footer__social-icon fa-2x" icon={faFacebook} />
             </a>
             <a href="https://www.instagram.com/tapatx/" rel="noreferrer" target="_blank">
-              <FontAwesomeIcon className="social-icon fa-2x" icon={faInstagram} />
+              <FontAwesomeIcon className="footer__social-icon fa-2x" icon={faInstagram} />
             </a>
             <a href="https://twitter.com/tap_atx" rel="noreferrer" target="_blank">
-              <FontAwesomeIcon className="social-icon fa-2x" icon={faTwitter} />
+              <FontAwesomeIcon className="footer__social-icon fa-2x" icon={faTwitter} />
             </a>
           </Col>
         </Row>

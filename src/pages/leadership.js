@@ -1,4 +1,4 @@
-import "./leadership.css"
+import "./leadership.scss"
 import { Container, Row, Col } from "react-bootstrap"
 import JustinPic from "../images/officers/justin.jpg"
 import MelodyPic from "../images/officers/melody.jpg"
@@ -8,20 +8,20 @@ import JasonPic from "../images/officers/jason.jpg"
 const OfficerRow = ({ imgSrc, name, title, description }) => {
   return (
     <>
-      <Row className="officer-row align-items-center" style={{ marginLeft: 0, marginRight: 0 }}>
+      <Row className="officer-row align-items-center">
         <Col md="auto" style={{ paddingLeft: 0 }}>
-          <div class="portrait">
+          <div className="portrait">
             <img className="clip-circle officer" src={imgSrc} alt="officer-img" />
           </div>
         </Col>
         <Col>
-          <Row style={{ marginLeft: 0, marginRight: 0 }}>
+          <Row>
             <h3>{name}</h3>
           </Row>
-          <Row style={{ marginLeft: 0, marginRight: 0 }}>
+          <Row>
             <h5 className="officer-title">{title}</h5>
           </Row>
-          <Row style={{ marginLeft: 0, marginRight: 0 }}>
+          <Row>
             <span>{description}</span>
           </Row>
         </Col>

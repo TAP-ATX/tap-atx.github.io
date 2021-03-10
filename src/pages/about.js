@@ -1,4 +1,4 @@
-import "./about.css"
+import "./about.scss"
 import { Container } from "react-bootstrap"
 import OfficerImg from "../images/about_officers.jpg"
 

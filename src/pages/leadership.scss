@@ -1,0 +1,42 @@
+@import "../styles/base/_base.scss";
+@import "../styles/mixins/_mixins.scss";
+
+.officer-row {
+  @include no-margin-x;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  vertical-align: middle;
+
+  .row {
+    @include no-margin-x;
+  }
+
+  .portrait {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+
+    .clip-circle {
+      clip-path: circle(75px at center);
+    }
+
+    img.officer {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .officer-title {
+    color: #009c82;
+  }
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    .portrait {
+      margin-bottom: 1.5em;
+    }
+  }
+}

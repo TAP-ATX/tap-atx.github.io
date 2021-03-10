@@ -1,5 +1,5 @@
 import React from "react"
-import "./header.css"
+import "./header.scss"
 import { Navbar, Nav, Container } from "react-bootstrap"
 import logo from "../images/TAP_logo.png"
 
@@ -8,7 +8,7 @@ const Header = ({ url }) => {
     <Navbar bg="light" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand href={`${url}/`}>
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="app-logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

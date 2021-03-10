@@ -1,106 +1,78 @@
+@import "styles/base/_base.scss";
+@import "styles/mixins/_mixins.scss";
+
 .title-container {
   color: white;
   padding-top: 25vh;
   height: 700px;
-}
-
-.title-container h2.title {
-  color: white;
-  margin-bottom: 20px;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 4.8em;
-  line-height: 1.15em;
-  font-weight: 700;
-}
-
-.title-container h4 {
-  color: white;
-  margin-bottom: 60px;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  font-size: 1.3em;
-  line-height: 1.4em;
-}
-
-.title-container {
   position: relative;
   z-index: 999;
+
+  h2.title {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 4.8em;
+    line-height: 1.15em;
+    font-weight: 700;
+  }
+
+  h4 {
+    color: white;
+    margin-bottom: 60px;
+    font-family: $title-tagline-font;
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
 }
 
 .instagram {
   position: absolute;
   width: 100%;
   z-index: 2;
+
+  .instagram-overlay {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .instagram-pic {
+    position: relative;
+    width: 16.666666%;
+    height: 350px;
+    object-fit: cover;
+    z-index: -1;
+  }
 }
 
-.instagram-overlay {
-  background: rgba(0, 0, 0, 0.6);
-}
+.buttons {
+  a,
+  button {
+    @include no-border-white;
+    @include button-format;
 
-.instagram-pic {
-  position: relative;
-  width: 16.666666%;
-  height: 350px;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.buttons a,
-.buttons button {
-  padding: 17px 35px;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 400;
-  background-color: #009c82;
-  color: white !important;
-  border: none;
-  margin-left: 5px;
-  margin-right: 5px;
-  border: none !important;
-}
-
-.buttons a:hover,
-.buttons a:active,
-.buttons button:hover,
-.buttons button:active {
-  background-color: #008a6f !important;
-  color: white;
-  border: none !important;
-}
-
-.buttons a:unpublished:visited,
-.buttons a:focus,
-.buttons a:visited,
-.buttons a:target .buttons button:unpublished:visited,
-.buttons button:focus,
-.buttons button:visited,
-.buttons button:target {
-  background-color: #009c82 !important;
-  color: white;
-  border: none !important;
-}
-
-.home-container {
-  margin-top: 2em;
-  margin-bottom: 2em;
+    &:hover,
+    &:active {
+      @include no-border-white;
+      background-color: $primary-brand-hover-color !important;
+    }
+  }
 }
 
 .info-container {
   margin-top: 2em;
   margin-bottom: 2em;
-}
 
-.info-container p {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 20px;
-  line-height: 2;
-}
+  p {
+    font-size: 20px;
+    line-height: 2;
+  }
 
-.info-container h1.header-title {
-  margin-bottom: 1em;
-}
+  p.support-text {
+    line-height: 1.25;
+  }
 
-.info-container p.support-text {
-  line-height: 1.25;
+  h1.header-title {
+    margin-bottom: 1em;
+  }
 }
 
 .description-container {
@@ -112,7 +84,7 @@ div.mailchimp {
   width: 25%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: $breakpoint-mobile) {
   div.mailchimp {
     width: 100%;
   }

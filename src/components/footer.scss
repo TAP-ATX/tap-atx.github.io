@@ -1,0 +1,22 @@
+.footer {
+  background-color: #333333;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: #999;
+
+  &__social-icon {
+    color: white;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+  }
+
+  &__copyright {
+    p {
+      color: white;
+    }
+  }
+
+  &__social {
+    margin-bottom: 1em;
+  }
+}

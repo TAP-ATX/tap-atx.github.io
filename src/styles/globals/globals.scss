@@ -1,3 +1,9 @@
+@import "../base/_base.scss";
+
+* {
+  font-family: $primary-font
+}
+
 html,
 body {
   height: 100%;
@@ -17,8 +23,6 @@ body {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,13 +37,9 @@ li,
 span,
 h3,
 h4 {
-  color: #555;
-}
-
-.hidden {
-  display: none;
+  color: $text-color;
 }
 
 a {
-  color: #009c82 !important;
+  color: $primary-brand-color !important;
 }
