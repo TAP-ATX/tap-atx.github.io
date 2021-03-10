@@ -18,15 +18,15 @@ The TAP-ATX Homepage was created with https://github.com/facebook/create-react-a
 
 # Useful Scripts
 
-## `yarn install`
+### `yarn install`
 
 Installs all necessary dependencies including the `dev-dependencies`. This is necessary when deploying.
 
-## `yarn start`
+### `yarn start`
 
 This starts up a localhost page that also watches for any changes in the code. Good for developing new pages
 
-## `yarn deploy`
+### `yarn deploy`
 
 Deploys changes to `gh-pages`. The changes will be reflected in production (https://www.tap-atx.org). This will run
 a prettier check to make sure that the pages follow the right style. If there's an issue, you can fix it by running
@@ -66,5 +66,5 @@ The images are currently pulled from the `src/images/instagram` folder. By defau
 - Create a new page component under `src/pages`
   - `new_component.js`
   - `new_component.scss`
-- Add the route and component to (App.js)[https://github.com/TAP-ATX/tap-atx.github.io/blob/main/src/App.js]
-- Add new link to to (header.js)[https://github.com/TAP-ATX/tap-atx.github.io/blob/main/src/components/header.js]
+- Add the route and component to [App.js](https://github.com/TAP-ATX/tap-atx.github.io/blob/main/src/App.js)
+- Add new link to to [header.js](https://github.com/TAP-ATX/tap-atx.github.io/blob/main/src/components/header.js)
