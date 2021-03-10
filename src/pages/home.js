@@ -1,34 +1,55 @@
 import { Container, Row, Col } from "react-bootstrap"
 import _ from "lodash"
+import { useState, useEffect } from "react"
 import MailChimp from "../components/mailchimp"
 import { HashLink as Link } from "react-router-hash-link"
 
-function importAll(r) {
+const importAll = (r) => {
   return r.keys().map(r)
 }
 
-function shuffle(array) {
+const shuffle = (array) => {
   var currentIndex = array.length,
     temporaryValue,
     randomIndex
-
-  // While there remain elements to shuffle...
   while (0 !== currentIndex) {
-    // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex)
     currentIndex -= 1
-
-    // And swap it with the current element.
     temporaryValue = array[currentIndex]
     array[currentIndex] = array[randomIndex]
     array[randomIndex] = temporaryValue
   }
-
   return array
 }
 
-function Home() {
-  const images = shuffle(importAll(require.context("../images", false, /instagram_\d+\.(png|jpe?g|svg)$/)))
+const getWindowDimensions = () => {
+  const { innerWidth: width, innerHeight: height } = window
+  return { width, height }
+}
+
+const useWindowDimensions = () => {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions())
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions())
+    }
+
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
+  return windowDimensions
+}
+
+const Home = () => {
+  const { width } = useWindowDimensions()
+  let images = shuffle(importAll(require.context("../images", false, /instagram_\d+\.(png|jpe?g|svg)$/)))
+  let numImages = images.length
+  if (width <= 600) {
+    numImages = 6
+  }
+  images = images.slice(0, numImages)
   return (
     <div>
       <div className="instagram">

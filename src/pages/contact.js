@@ -9,6 +9,7 @@ function Contact() {
     <Container className="info-container">
       <div className="contact-container">
         <h1 className="text-center header-title">Contact</h1>
+        <hr />
         <h4>Contact Us</h4>
         <ul>
           <li>

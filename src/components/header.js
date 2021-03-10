@@ -15,7 +15,6 @@ const Header = ({ url }) => {
           <Nav className="ml-auto">
             <Nav.Link href={`${url}/#/about`}>About</Nav.Link>
             <Nav.Link href={`${url}/#/leadership`}>Leadership</Nav.Link>
-            <Nav.Link href={`${url}/#/events`}>Events</Nav.Link>
             <Nav.Link href={`${url}/#/contact`}>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

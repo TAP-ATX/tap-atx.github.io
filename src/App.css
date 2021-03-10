@@ -116,4 +116,13 @@ div.mailchimp {
   div.mailchimp {
     width: 100%;
   }
+
+  .instagram-pic {
+    width: 50%;
+    height: 233px;
+  }
+
+  .title-container h2.title {
+    font-size: 4.25em;
+  }
 }

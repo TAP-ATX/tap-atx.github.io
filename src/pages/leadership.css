@@ -1,8 +1,34 @@
 .clip-circle {
-  clip-path: circle(60px at center);
+  clip-path: circle(75px at center);
 }
 
 img.officer {
-  width: 125px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portrait {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: block;
+}
+
+.officer-title {
+  color: #009c82;
+}
+
+@media only screen and (max-width: 600px) {
+  .portrait {
+    margin-bottom: 1.5em;
+  }
+}
+
+.officer-row {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  vertical-align: middle;
 }

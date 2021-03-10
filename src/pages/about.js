@@ -7,6 +7,7 @@ function About() {
     <Container className="info-container">
       <div className="description-container">
         <h1 className="text-center header-title">About</h1>
+        <hr />
         <p>
           <strong>Taiwanese American Professionals (TAP)</strong> enhances the Taiwanese American community by
           connecting individuals interested in professional and career development, while emphasizing the preservation
