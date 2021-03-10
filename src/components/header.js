@@ -3,6 +3,10 @@ import "./header.scss"
 import { Navbar, Nav, Container } from "react-bootstrap"
 import logo from "../images/TAP_logo.png"
 
+const HashNavLink = ({ url, path, title }) => {
+  return <Nav.Link href={`${url}/#/${path}`}>{title}</Nav.Link>
+}
+
 const Header = ({ url }) => {
   return (
     <Navbar bg="light" expand="lg" sticky="top">
@@ -13,9 +17,9 @@ const Header = ({ url }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href={`${url}/#/about`}>About</Nav.Link>
-            <Nav.Link href={`${url}/#/leadership`}>Leadership</Nav.Link>
-            <Nav.Link href={`${url}/#/contact`}>Contact</Nav.Link>
+            <HashNavLink url={url} path="about" title="About" />
+            <HashNavLink url={url} path="leadership" title="Leadership" />
+            <HashNavLink url={url} path="contact" title="Contact" />
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -44,8 +44,8 @@ const useWindowDimensions = () => {
 
 const Home = () => {
   const { width } = useWindowDimensions()
-  let images = shuffle(importAll(require.context("../images", false, /instagram_\d+\.(png|jpe?g|svg)$/)))
-  let numImages = images.length
+  let images = shuffle(importAll(require.context("../images/instagram", false, /instagram_\d+\.(png|jpe?g|svg)$/)))
+  let numImages = 12
   if (width <= 600) {
     numImages = 6
   }

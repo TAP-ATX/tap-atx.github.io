@@ -1,74 +1,70 @@
 # Webpage
 
-https://tap-atx.github.io/tap-atx-homepage/
+https://www.tap-atx.org
 
-# Getting Started with Create React App
+# Requirements
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- `node` - 4.15.5
+- `yarn` - 1.22.10
 
-## Available Scripts
+# Infrastructure
 
-In the project directory, you can run:
+The TAP-ATX Homepage was created with https://github.com/facebook/create-react-app as the base boilerplate.
 
-### `yarn start`
+- [React](https://reactjs.org/)
+- [Sass](https://sass-lang.com/)
+- [Prettier](https://prettier.io/)
+- [gh-pages](https://github.com/gitname/react-gh-pages)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Useful Scripts
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## `yarn install`
 
-### `yarn test`
+Installs all necessary dependencies including the `dev-dependencies`. This is necessary when deploying.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## `yarn start`
 
-### `yarn build`
+This starts up a localhost page that also watches for any changes in the code. Good for developing new pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## `yarn deploy`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Deploys changes to `gh-pages`. The changes will be reflected in production (https://www.tap-atx.org). This will run
+a prettier check to make sure that the pages follow the right style. If there's an issue, you can fix it by running
+`yarn prettier --write .` from the root folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# How to update the site
 
-### `yarn eject`
+## Updating Officers
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Take a look at (leadership.js)[https://github.com/TAP-ATX/tap-atx.github.io/blob/main/src/pages/leadership.js].
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```javascript
+import JustinPic from "../images/officers/justin.jpg"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+...
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<OfficerRow
+  imgSrc={JustinPic}
+  name="Justin Chang"
+  title="Treasurer"
+  description="I joined TAP because I never felt connected with my roots. By joining TAP-ATX, I expanded my knowledge of Taiwan as well as my circle of friends."
+/>
+```
 
-## Learn More
+To add a new officer, do the following
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Add the officer's picture into `src/images/officers`
+- import the picture like above
+- Fill in the name, title, and description of the officer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Update Splash Page images
 
-### Code Splitting
+The images are currently pulled from the `src/images/instagram` folder. By default, it is pulling the first 12 images and then shuffling them to display. If you want to change the photos, you should switch an image by renaming the new file with the swapped out image's name. ex: `instagram_1.jpg`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Creating a new Page
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Create a new page component under `src/pages`
+  - `new_component.js`
+  - `new_component.scss`
+- Add the route and component to (App.js)[https://github.com/TAP-ATX/tap-atx.github.io/blob/main/src/App.js]
+- Add new link to to (header.js)[https://github.com/TAP-ATX/tap-atx.github.io/blob/main/src/components/header.js]
