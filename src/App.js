@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.scss"
 import Header from "./components/header"
 import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "./pages/home"
@@ -12,7 +12,7 @@ function App() {
   const url = process.env.PUBLIC_URL
   return (
     <>
-      <div className="main-app">
+      <div className="page-content">
         <Router baseurl={url}>
           <Header url={url} />
           <Switch>
@@ -23,9 +23,8 @@ function App() {
             <Route exact path={"/"} component={Home} />
           </Switch>
         </Router>
-        <Footer />
       </div>
-
+      <Footer />
     </>
   )
 }
