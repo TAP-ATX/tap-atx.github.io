@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tap-atx-homepage/static/css/main.701f45ff.chunk.css",
-    "main.js": "/tap-atx-homepage/static/js/main.9f0c9c8b.chunk.js",
-    "main.js.map": "/tap-atx-homepage/static/js/main.9f0c9c8b.chunk.js.map",
+    "main.css": "/tap-atx-homepage/static/css/main.3c9d5fa5.chunk.css",
+    "main.js": "/tap-atx-homepage/static/js/main.bcb274b1.chunk.js",
+    "main.js.map": "/tap-atx-homepage/static/js/main.bcb274b1.chunk.js.map",
     "runtime-main.js": "/tap-atx-homepage/static/js/runtime-main.0e616d32.js",
     "runtime-main.js.map": "/tap-atx-homepage/static/js/runtime-main.0e616d32.js.map",
     "static/css/2.ef9168ec.chunk.css": "/tap-atx-homepage/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.cb720d15.chunk.js": "/tap-atx-homepage/static/js/2.cb720d15.chunk.js",
-    "static/js/2.cb720d15.chunk.js.map": "/tap-atx-homepage/static/js/2.cb720d15.chunk.js.map",
+    "static/js/2.941e64de.chunk.js": "/tap-atx-homepage/static/js/2.941e64de.chunk.js",
+    "static/js/2.941e64de.chunk.js.map": "/tap-atx-homepage/static/js/2.941e64de.chunk.js.map",
     "static/js/3.037bd7ba.chunk.js": "/tap-atx-homepage/static/js/3.037bd7ba.chunk.js",
     "static/js/3.037bd7ba.chunk.js.map": "/tap-atx-homepage/static/js/3.037bd7ba.chunk.js.map",
     "index.html": "/tap-atx-homepage/index.html",
     "static/css/2.ef9168ec.chunk.css.map": "/tap-atx-homepage/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.701f45ff.chunk.css.map": "/tap-atx-homepage/static/css/main.701f45ff.chunk.css.map",
-    "static/js/2.cb720d15.chunk.js.LICENSE.txt": "/tap-atx-homepage/static/js/2.cb720d15.chunk.js.LICENSE.txt",
+    "static/css/main.3c9d5fa5.chunk.css.map": "/tap-atx-homepage/static/css/main.3c9d5fa5.chunk.css.map",
+    "static/js/2.941e64de.chunk.js.LICENSE.txt": "/tap-atx-homepage/static/js/2.941e64de.chunk.js.LICENSE.txt",
     "static/media/about_officers.f0dc4bb1.jpg": "/tap-atx-homepage/static/media/about_officers.f0dc4bb1.jpg",
     "static/media/instagram_1.jpg": "/tap-atx-homepage/static/media/instagram_1.ceee6768.jpg",
     "static/media/instagram_10.jpg": "/tap-atx-homepage/static/media/instagram_10.260139f1.jpg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.0e616d32.js",
     "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.cb720d15.chunk.js",
-    "static/css/main.701f45ff.chunk.css",
-    "static/js/main.9f0c9c8b.chunk.js"
+    "static/js/2.941e64de.chunk.js",
+    "static/css/main.3c9d5fa5.chunk.css",
+    "static/js/main.bcb274b1.chunk.js"
   ]
 }
