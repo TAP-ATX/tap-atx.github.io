@@ -12,7 +12,7 @@ function App() {
   const url = process.env.PUBLIC_URL
   return (
     <>
-      <div className="main-app wrapper">
+      <div className="main-app">
         <Router baseurl={url}>
           <Header url={url} />
           <Switch>
