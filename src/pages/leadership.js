@@ -1,9 +1,9 @@
-import "./leadership.css";
-import { Container, Row, Col } from "react-bootstrap";
-import JustinPic from "../images/officers/justin.jpg";
-import MelodyPic from "../images/officers/melody.jpg";
-import KevinPic from "../images/officers/kevin.jpg";
-import JasonPic from "../images/officers/jason.jpg";
+import "./leadership.css"
+import { Container, Row, Col } from "react-bootstrap"
+import JustinPic from "../images/officers/justin.jpg"
+import MelodyPic from "../images/officers/melody.jpg"
+import KevinPic from "../images/officers/kevin.jpg"
+import JasonPic from "../images/officers/jason.jpg"
 
 const OfficerRow = ({ imgSrc, name, title, description }) => {
   return (
@@ -12,8 +12,8 @@ const OfficerRow = ({ imgSrc, name, title, description }) => {
         <img className="clip-circle officer" src={imgSrc} />
       </Col>
     </Row>
-  );
-};
+  )
+}
 
 function Leadership() {
   return (
@@ -26,7 +26,7 @@ function Leadership() {
         <OfficerRow imgSrc={JustinPic} />
       </div>
     </Container>
-  );
+  )
 }
 
-export default Leadership;
+export default Leadership

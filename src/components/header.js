@@ -1,7 +1,7 @@
-import React from "react";
-import "./header.css";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../images/TAP_logo.png";
+import React from "react"
+import "./header.css"
+import { Navbar, Nav, Container } from "react-bootstrap"
+import logo from "../images/TAP_logo.png"
 
 const Header = ({ url }) => {
   return (
@@ -21,6 +21,6 @@ const Header = ({ url }) => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
-};
-export default Header;
+  )
+}
+export default Header

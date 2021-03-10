@@ -1,29 +1,29 @@
-import "./mailchimp.css";
-import { useState } from "react";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
+import "./mailchimp.css"
+import { useState } from "react"
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 const SimpleForm = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState("");
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [emailError, setEmailError] = useState("");
+  const [email, setEmail] = useState("")
+  const [firstName, setFirstName] = useState("")
+  const [lastName, setLastName] = useState("")
+  const [emailError, setEmailError] = useState("")
   const submit = () =>
     onValidated({
       EMAIL: email,
       FNAME: firstName,
       LNAME: lastName,
-    });
+    })
 
   const validateEmail = (e) => {
-    const mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
     if (e.target.value === "") {
-      setEmailError("This field is required.");
+      setEmailError("This field is required.")
     } else if (!e.target.value.match(mailformat)) {
-      setEmailError("Please enter a valid email address.");
+      setEmailError("Please enter a valid email address.")
     } else {
-      setEmailError("");
+      setEmailError("")
     }
-  };
+  }
   return (
     <div id="mc-embedded-subscribe-form">
       <div id="mc_embed_signup_scroll">
@@ -70,11 +70,7 @@ const SimpleForm = ({ status, message, onValidated }) => {
           />
         </div>
         {status === "sending" && (
-          <div
-            className="response"
-            id="mce-sending-response"
-            style={{ display: "block" }}
-          >
+          <div className="response" id="mce-sending-response" style={{ display: "block" }}>
             Sending ...
           </div>
         )}
@@ -101,12 +97,11 @@ const SimpleForm = ({ status, message, onValidated }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const MailChimp = () => {
-  const url =
-    "https://tacl.us9.list-manage.com/subscribe/post?u=b5b734b225d2251cf048a7c08&amp;id=927b24d67f";
+  const url = "https://tacl.us9.list-manage.com/subscribe/post?u=b5b734b225d2251cf048a7c08&amp;id=927b24d67f"
   return (
     <div id="mailchimp-subscribe">
       <div id="mc_embed_signup">
@@ -115,17 +110,13 @@ const MailChimp = () => {
           url={url}
           render={({ subscribe, status, message }) => (
             <div>
-              <SimpleForm
-                status={status}
-                message={message}
-                onValidated={(formData) => subscribe(formData)}
-              />
+              <SimpleForm status={status} message={message} onValidated={(formData) => subscribe(formData)} />
             </div>
           )}
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default MailChimp;
+export default MailChimp

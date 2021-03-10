@@ -1,8 +1,8 @@
-import "./contact.css";
-import { Container } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import "./contact.css"
+import { Container } from "react-bootstrap"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 
 function Contact() {
   return (
@@ -17,9 +17,7 @@ function Contact() {
           </li>
           <li>
             <FontAwesomeIcon className="fa-md" icon={faFacebook} /> Facebook:{" "}
-            <a href="https://www.facebook.com/tapatx">
-              Taiwanese American Professionals - Austin Chapter
-            </a>
+            <a href="https://www.facebook.com/tapatx">Taiwanese American Professionals - Austin Chapter</a>
           </li>
         </ul>
         <br />
@@ -32,11 +30,7 @@ function Contact() {
             </a>
           </li>
           <li>
-            <a
-              href="http://www.tap-boston.org"
-              rel="noreferrer"
-              target="_blank"
-            >
+            <a href="http://www.tap-boston.org" rel="noreferrer" target="_blank">
               Boston
             </a>
           </li>
@@ -66,11 +60,7 @@ function Contact() {
             </a>
           </li>
           <li>
-            <a
-              href="http://www.tap-seattle.org"
-              rel="noreferrer"
-              target="_blank"
-            >
+            <a href="http://www.tap-seattle.org" rel="noreferrer" target="_blank">
               Seattle
             </a>
           </li>
@@ -82,7 +72,7 @@ function Contact() {
         </ul>
       </div>
     </Container>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

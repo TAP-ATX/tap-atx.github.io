@@ -1,15 +1,15 @@
-import "./App.css";
-import Header from "./components/header";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Events from "./pages/events";
-import Leadership from "./pages/leadership";
-import Footer from "./components/footer";
+import "./App.css"
+import Header from "./components/header"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
+import Home from "./pages/home"
+import About from "./pages/about"
+import Contact from "./pages/contact"
+import Events from "./pages/events"
+import Leadership from "./pages/leadership"
+import Footer from "./components/footer"
 
 function App() {
-  const url = process.env.PUBLIC_URL;
+  const url = process.env.PUBLIC_URL
   return (
     <div className="main-app">
       <Router baseurl={url}>
@@ -24,7 +24,7 @@ function App() {
         <Footer />
       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
