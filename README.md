@@ -4,8 +4,17 @@ https://www.tap-atx.org
 
 # Requirements
 
-- `node` - 4.15.5
-- `yarn` - 1.22.10
+- `node` - 16.13.2
+- `yarn` - 1.22.17
+
+Note: This is now controlled by asdf: http://asdf-vm.com/guide/getting-started.html
+
+```
+# Add Plugins
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin add yarn
+asdf install
+```
 
 # Infrastructure
 
