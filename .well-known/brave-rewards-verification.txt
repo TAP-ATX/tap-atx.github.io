@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: tap-atx.org
-Token: 2c5213a40aae6847b30354dacd230315fa49ec5a372c2992926321f858d8b105
