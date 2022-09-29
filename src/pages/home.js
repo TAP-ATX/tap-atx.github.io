@@ -98,6 +98,7 @@ const Home = () => {
             frameBorder="0"
             scrolling="no"
           ></iframe>
+          <div>Subscribe to the calendar by clicking the + icon above</div>
         </Container>
         <Container className="info-container text-center">
           <h1 className="header-title">Support Us</h1>

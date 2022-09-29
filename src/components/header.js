@@ -17,6 +17,7 @@ const Header = ({ url }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
+            <HashNavLink url={url} path="calendar" title="Calendar" />
             <HashNavLink url={url} path="about" title="About" />
             <HashNavLink url={url} path="leadership" title="Leadership" />
             <HashNavLink url={url} path="contact" title="Contact" />
